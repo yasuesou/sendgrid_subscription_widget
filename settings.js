@@ -2,7 +2,7 @@
 exports.url = 'https://yasuesousg.herokuapp.com/';
 
 exports.senderEmail = "info@yasuesou.com";
-exports.senderName = "カミツレの宿　八寿恵荘";
+exports.senderName = "カミツレの宿 八寿恵荘";
 
 // set 'exports.listId = null' to add contact to all contacts, but no specific list
 // or a string with the listId to add to a specific list
