@@ -6,10 +6,29 @@ const Settings = require('../../settings');
 const optIn = 'opt-in';
 
 function prepareConfirmationEmail(reqBody) {
-	const subject = "Please Confirm Your Email Address";
+	const subject = "【八寿恵荘】メールマガジンに登録する";
 	const url = formatUrl(Settings.url) + '/success';
-	const link = "<a href='" + url + "'>this link</a>"
-	const mailText = "Thanks for signing up! Click " + link + " to sign up!  This link will be active for 24 hours.";
+	const link = "<a href='" + url + "'>こちらのリンク</a>"
+	const mailText = "
+カミツレの宿 八寿恵荘のメールマガジンをお申込みいただき誠にありがとうございます。<br>
+<br>
+
+メールアドレスの確認のため、 " + link + "をクリックしてください。<br>
+<br>
+<br>
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇<br>
+BIOHOTEL 八寿恵荘 フロント<br>
+<br>
+mail：info@yasuesou.com<br>
+HP：https://yasuesou.com/<br>
+Facebook：https://www.facebook.com/yasuesou/<br>
+instagram：https://www.instagram.com/yasuesou/<br>
+Tel：0261-62-9119<br>
+〒399-8604長野県北安曇郡池田町広津4098<br>
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+
+
+";
 
 	var emailBody = {
 	  personalizations: [
