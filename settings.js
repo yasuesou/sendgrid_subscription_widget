@@ -2,7 +2,7 @@
 exports.url = 'https://yasuesousg.herokuapp.com/';
 
 exports.senderEmail = "info@yasuesou.com";
-exports.senderName = "”ªõŒb‘‘‚Ìƒ[ƒ‹ƒ}ƒKƒWƒ“";
+exports.senderName = "ã‚«ãƒŸãƒ„ãƒ¬ã®å®¿ã€€å…«å¯¿æµè˜";
 
 // set 'exports.listId = null' to add contact to all contacts, but no specific list
 // or a string with the listId to add to a specific list
