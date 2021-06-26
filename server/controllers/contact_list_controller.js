@@ -9,7 +9,7 @@ function prepareConfirmationEmail(reqBody) {
 	const subject = "【八寿恵荘】メールマガジンに登録する";
 	const url = formatUrl(Settings.url) + '/success';
 	const link = "<a href='" + url + "'>こちらのリンク</a>"
-	const mailText = "カミツレの宿 八寿恵荘のメールマガジンをお申込みいただき誠にありがとうございます。メールアドレスの確認のため、 " + link + "をクリックしてください。";
+	const mailText = "カミツレの宿 八寿恵荘です。メールマガジンのお申込みをいただき誠にありがとうございます。メールアドレスの確認のため、" + link + "をクリックしてください。";
 
 	var emailBody = {
 	  personalizations: [
